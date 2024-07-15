@@ -26,3 +26,4 @@ class Comments(models.Model):
     text = models.TextField()
     book = models.ManyToManyField(Book)
     created_at = models.DateTimeField(auto_now_add=True)
+
